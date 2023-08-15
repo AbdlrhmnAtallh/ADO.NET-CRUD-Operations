@@ -46,8 +46,8 @@ namespace ADO3
             }
 
             conn.Close();
-            /// This project will give the value only for Name varible
-            /// and the id is 0 as it was 
+            /// This project will not give the "id" a value
+            /// i will update it in the project "ADO4"
              
         }
     }

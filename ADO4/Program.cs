@@ -36,7 +36,7 @@ namespace ADO4
 
             conn.Open();
 
-            student.ID =(int) command.ExecuteScalar();
+            student.ID = (int)command.ExecuteScalar();
 
             if (command.ExecuteNonQuery() > 0)
             {
@@ -51,3 +51,60 @@ namespace ADO4
         }
     }
 }
+
+
+
+// To insert by stored procedure .
+
+/*
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Json;
+using Microsoft.Data.SqlClient;
+using System.Data;
+namespace ADO4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            var configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json").Build();
+            SqlConnection conn = new SqlConnection(configuration.GetSection("constr").Value);
+
+            STUDENT2 student = new STUDENT2
+            {
+                Name = "Stored procdure"
+            };
+
+           
+
+            SqlParameter NameParameter = new SqlParameter
+            {
+                ParameterName = "@FIRSTNAME",
+                SqlDbType = SqlDbType.VarChar,
+                Direction = ParameterDirection.Input,
+                Value = student.Name
+            };
+
+            SqlCommand command = new SqlCommand("ADDSTUDENT", conn);
+
+
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.Add(NameParameter);
+
+            conn.Open();
+
+            if (command.ExecuteNonQuery() > 0)
+            {
+                Console.WriteLine($" Student {student.Name} Added successfuly");
+            }
+            else
+            {
+                Console.WriteLine($"ERROR: Student {student.Name}");
+            }
+
+            conn.Close();
+        }
+    }
+}
+*/

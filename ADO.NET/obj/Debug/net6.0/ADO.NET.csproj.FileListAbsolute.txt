@@ -60,3 +60,8 @@ F:\Work_Space\C#Package\ADO.NET\ADO.NET\bin\Debug\net6.0\runtimes\browser\lib\ne
 F:\Work_Space\C#Package\ADO.NET\ADO.NET\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 F:\Work_Space\C#Package\ADO.NET\ADO.NET\obj\Debug\net6.0\ADO.NET.csproj.CopyComplete
 F:\Work_Space\C#Package\ADO.NET\ADO.NET\bin\Debug\net6.0\appsettings.json
+F:\Work_Space\C#Package\ADO.NET\ADO.NET\bin\Debug\net6.0\ADO3.deps.json
+F:\Work_Space\C#Package\ADO.NET\ADO.NET\bin\Debug\net6.0\ADO3.runtimeconfig.json
+F:\Work_Space\C#Package\ADO.NET\ADO.NET\bin\Debug\net6.0\ADO3.exe
+F:\Work_Space\C#Package\ADO.NET\ADO.NET\bin\Debug\net6.0\ADO3.dll
+F:\Work_Space\C#Package\ADO.NET\ADO.NET\bin\Debug\net6.0\ADO3.pdb
