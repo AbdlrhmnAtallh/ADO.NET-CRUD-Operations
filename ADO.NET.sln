@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO3", "ADO3\ADO3.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO4", "ADO4\ADO4.csproj", "{CB419416-1E78-4879-A55C-A8493CE88BE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO5UpdateData", "ADO5UpdateData\ADO5UpdateData.csproj", "{24658FE7-D90B-4F73-AC01-DB01E9BC786B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO5UpdateData", "ADO5UpdateData\ADO5UpdateData.csproj", "{24658FE7-D90B-4F73-AC01-DB01E9BC786B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO6DeleteData", "ADO6DeleteData\ADO6DeleteData.csproj", "{34804D6D-B9BA-4D0C-8654-09A57D886246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO7_DataAdapter", "ADO7_DataAdapter\ADO7_DataAdapter.csproj", "{AA6A4EA7-2B32-41E8-8D14-17EA807D3233}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{24658FE7-D90B-4F73-AC01-DB01E9BC786B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24658FE7-D90B-4F73-AC01-DB01E9BC786B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24658FE7-D90B-4F73-AC01-DB01E9BC786B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34804D6D-B9BA-4D0C-8654-09A57D886246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34804D6D-B9BA-4D0C-8654-09A57D886246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34804D6D-B9BA-4D0C-8654-09A57D886246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34804D6D-B9BA-4D0C-8654-09A57D886246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6A4EA7-2B32-41E8-8D14-17EA807D3233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6A4EA7-2B32-41E8-8D14-17EA807D3233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6A4EA7-2B32-41E8-8D14-17EA807D3233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6A4EA7-2B32-41E8-8D14-17EA807D3233}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

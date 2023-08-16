@@ -13,13 +13,9 @@ namespace ADO5UpdateData
                 .AddJsonFile("appsettings.json").Build();
             SqlConnection conn = new SqlConnection(configuration.GetSection("constr").Value);
 
-            STUDENT2 student = new STUDENT2
-            {
-                Name = "UPDATED FROM ADO5"
-            };
-
+           
             var sql = "UPDATE STUDENT2 SET FIRSTNAME = @FIRSTNAME " +
-                "WHER ID = @ID";
+                "WHERE ID = @ID";
 
             SqlParameter IDParameter = new SqlParameter
             {
@@ -49,11 +45,11 @@ namespace ADO5UpdateData
 
             if (command.ExecuteNonQuery() > 0)
             {
-                Console.WriteLine($" Student {student.Name} Added successfuly");
+                Console.WriteLine($" Student UPDATED Successfuly");
             }
             else
             {
-                Console.WriteLine($"ERROR: Student {student.Name}");
+                Console.WriteLine($"ERROR:");
             }
 
             conn.Close();

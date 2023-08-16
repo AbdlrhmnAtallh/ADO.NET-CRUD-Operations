@@ -30,7 +30,7 @@ namespace ADO2
             {
                 Xstudent2 = new STUDENT2
                 {
-                    // You need to use System.Data For this 
+                    
                     ID = reader.GetInt32("ID"),
                     FNAME = reader.GetString("FIRSTNAME"),
                 };
